@@ -18,7 +18,7 @@ mysql = MySQL(app)
 # Index
 @app.route('/')
 def index():
-    return render_template('home.html')
+    return render_template('index.html')
 
 @app.route('/search', methods=['GET', 'POST'])
 def search():
